@@ -1,13 +1,3 @@
-// import React from 'react'
-
-// const Experience = () => {
-//   return (
-//     <div>Experience</div>
-//   )
-// }
-
-// export default Experience
-
 import React from "react";
 import {
   VerticalTimeline,
@@ -74,7 +64,10 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0.5)} // Use your delay or dynamic value
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}>
         <p className={`${styles.sectionSubText} text-left`}>
           What I have done so far
         </p>

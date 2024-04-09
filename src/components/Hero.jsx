@@ -2,14 +2,33 @@ import { motion } from "framer-motion";
 import TypewriterText from "./TypewriterText";
 import { styles } from "../styles";
 import { ComputersCanvas, ParticlesContainer } from "./canvas";
+import { bg } from "../assets";
+import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
+
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1280);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 1280);
+    };
+
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
+      <img src={bg} alt="Background" className="absolute inset-0 w-full h-full object-cover" />
+      
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <ParticlesContainer/>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -22,11 +41,11 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             I'm <span className='text-[#915EFF]'>Darshil</span>
           </h1>
-          <div className={`${styles.heroSubText} text-[#915EFF] pt pb-4`}> 
+          <div className={`${styles.heroSubText} text-[#915EFF] pt pb-4`}>
             <TypewriterText texts={[
               " Flutter Developer",
               " UI/UX Designer",
-              "n Ethical Hacker", // Starting with 'n' to make "An Ethical Hacker"
+              "n Ethical Hacker",
               " Web Developer",
               " Security Analyst",
               " Full Stack Developer"
@@ -39,7 +58,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {isDesktop && <ComputersCanvas />}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

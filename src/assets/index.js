@@ -9,6 +9,7 @@ import close from "./close.svg";
 import android from "./android.webp";
 import resume from "./resume.png";
 import linkedin from "./linkedin.svg";
+import bg from "./herobg.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -34,6 +35,8 @@ import three from "./03.webp";
 import four from "./04.webp";
 import five from "./05.webp";
 import six from "./06.webp";
+import seven from "./07.webp";
+import eight from "./08.webp";
 
 export {
   logo,
@@ -67,6 +70,9 @@ export {
   four,
   five,
   six,
+  seven,
+  eight,
   resume,
   linkedin,
+  bg,
 };

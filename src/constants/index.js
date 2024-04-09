@@ -24,11 +24,14 @@ import {
     four,
     five,
     six,
+    seven,
+    eight,
     threejs,
     github,
     android,
     resume,
     linkedin,
+    bg,
   } from "../assets";
   
   export const navLinks = [
@@ -135,49 +138,50 @@ import {
   
   const experiences = [
     {
-      title: "Graduate Research Assistantship",
-      company_name: "Indiana University - Bloomington",
+      title: "Full Stack Data Engineer",
+      company_name: "Indiana University Bloomington",
       icon: iu,
       iconBg: "#383E56",
       date: "May 2023 - Present",
       points: [
-        "Employed scrum agile development of 3 healthcare apps funded by the National Institute of Health (NIH) increasing user interface accessibility by 60% based on feedback. Engineered fault-tolerant, highly available, large-scale distributed systems, ensuring 99.9% uptime.",
-        "Led design and development of an AI-Powered chatbot app, LOLA, for ADRD support to African American community enhancing user interaction and attracting over 10,000 queries.",
-        "Engineered app using Flutter, Objective-C, Java (Object-Oriented programming), PostgreSQL, GPS-based event updates and Google Search API for event data retrieval, resulting in 98% crash-free rate, and provided valuable analytics to further tailor user experience."
+        "Employed scrum agile methods to delve into healthcare IT solutions, developing 3 NIH-funded apps, aimed assisting individuals with health issues. Showcased JavaScript and React expertise by crafting fault-tolerant systems with 99.9% uptime, evidencing test-driven development capabilities.",
+        "Developed an AI-powered chatbot, applying Python Flask and Large Language Models (LLM) for Alzheimers disease support, improving African American community engagement. Managed to acquire over 10,000 queries, embodying a passion for technology-driven enhancement.",
+        "Incorporated additional native code, specifically Objective-C and Java, to augment user accessibility in app development. Accomplished a 98% crash-free rate through sophisticated integration of PostgreSQL, GPS, and APIs, refining user experience with targeted analytics.",
+        "Directed a team of 8, utilizing TypeScript, React, NodeJs, and PostgreSQL, producing 3 innovative education technology solutions, leading to a 40% boost in problem-solving efficiency and promoting collaborative and analytical prowess."
       ],
     },
     {
       title: "Graduate Associate Instructor",
-      company_name: "Indiana University - Bloomington",
+      company_name: "Indiana University Bloomington",
       icon: iu,
       iconBg: "#E6DEDD",
       date: "Aug 2022 – May 2023",
       points: [
-        "Orchestrated and tutored sessions on Applied Algorithms and Cybersecurity Mathematics, enabling students to grasp intricate concepts and excel in computational and mathematical tasks.",
-        "Conducted seminars on Cryptography, DES, AES, and Cipher techniques, deepening students' grasp of cybersecurity nuances."
+        "Boosted problem-solving skills for 150+ students in Applied Algorithms, resulting in improvement in academic through interactive sessions.",
+        "Elevated security knowledge among 80 students through detailed seminars on DES, AES, and Cipher techniques, achieving an increase in student proficiency in cybersecurity nuances, exhibiting effective educational engagement and subject mastery."
       ],
     },
     {
-      title: "Software Developer",
-      company_name: "Daxy – The Digital Taxi Inc.",
+      title: "Software Engineer, Data Platform",
+      company_name: "Daxy – The Digital Taxi",
       icon: daxy,
       iconBg: "#383E56",
       date: "Jun 2020 – Dec 2021",
       points: [
-        "Developed a B2B e-commerce app for diamond customization sales, enhancing vendor offerings with custom UIs, resulting in a 40% increase in client product listings of order personalization. Authored clear and scalable design documentation.",
-        "Elevated inventory management efficiency by architecting a responsive, full-stack e-commerce website with a customizable CRUD-based Admin backend, reducing product catalog control efforts by 35%.",
-        "Enhanced security of online transactions by integrating Stripe payment gateway and implementing user authentication, resulting in a robust system with a 99% reduction in fraudulent activities."
+        "Cultivated B2B e-commerce Progressive Web Apps (PWA), improving diamond customization sales, leveraging React and Redux for custom UIs, resulting in increase client product listings with 250 products while authoring scalable design and featuring HTML/CSS, Django, and JavaScript skills.",
+        "Architected 5+ responsive, full-stack e-commerce website applying Angular and React.Js, integrating customizable CRUD-based Admin backend, reducing product catalog controls. Utilized Apache Airflow for ETL orchestration, enhancing cross-team communication and workflow efficiency.",
+        "Enhanced online transaction security by synthesizing Stripe payment gateway and implementing user authentication using Python, leading to a 99% reduction in fraudulent activities while illustrating expertise in system security, database management, and distributed computing practices."
       ],
     },
     {
       title: "Software Developer",
-      company_name: "Ocean Transworld Logistics PVT. LTD.",
+      company_name: "Ocean Transworld Logistics",
       icon: otwl,
       iconBg: "#E6DEDD",
       date: "Jun 2019 – May 2020",
       points: [
-        "Managed creation of Java based Android app and Firebase, leading to a 50% reduction in paper usage and a 20% cut in wage loss by digitalizing expense records and automating daily allowance.",
-        "Designed a sophisticated validation algorithm, resulting in 30% decrease in financial errors, and developed an administrative web portal improving efficiency of expense monitoring and employee tracking by 25%."
+        "Managed development of a Java-based Android app with Firebase, cutting paper usage and reducing wage loss by 45%, showcasing deep RDBMS knowledge and query optimization in streamlining expense records and automating allowances.",
+        "Innovated a route suggestion system employing AJAX, PHP, Bootstrap, alongside a sophisticated validation algorithm, resulting in fewer financial errors and 90% success rate in operational efficiency, proficiency in enterprise application development and large-scale system maintenance."
       ],
     },
   ];
@@ -213,7 +217,7 @@ import {
     {
       name: "Disney+ Sub. Growth",
       description:
-        "Conducted analysis on 1800+ Disney+ titles and scraped data using Python, Selenium, and BeautifulSoup, evaluating content strategy to optimize subscriber growth and provide actionable recommendations.",
+        "This project pioneered extensive data analysis of 1800+ Disney+ titles using web scraping and SQL, assessing content strategy to boost subscriber growth. It also enhanced data system efficiency through 50+ complex SQL queries, optimizing Disney+'s integrations and reporting processes.",
       tags: [
         {
           name: "data-anaylsis",
@@ -235,7 +239,7 @@ import {
     {
       name: "Daily Dash",
       description:
-        "Led the creation of a React-based food delivery app, achieving 80% household reach through API integration and team collaboration. Enhanced UI using Swift and Java, increasing stability by 65%.",
+        "Developed a food delivery app using Flutter and REST API microservices, achieving extensive coverage. UI enhancements led to a 65% increase in stability, significantly boosting subscriptions and vendor participation through effective teamwork in a startup environment.",
       tags: [
         {
           name: "react",
@@ -255,9 +259,9 @@ import {
       source_code_link: "https://play.google.com/store/apps/details?id=in.co.freshnom.freshnom",
     },
     {
-      name: "Filemot",
+      name: "Reverse Engineering: IDA Pro",
       description:
-        "Developed a cost-effective Progressive Web App using React and MongoDB, reducing maintenance by 30%. Enhanced inventory management and security, cutting fraud by 99% and easing product control by 35%.",
+        "In a detailed reverse engineering project using IDA Pro, analyzed an Objective-C application to uncover and document over 200 unnecessary data extraction methods, significantly enhancing device security and user privacy on more than 1,000 devices during a graduate independent study.",
       tags: [
         {
           name: "progressive web app",
@@ -272,14 +276,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: three,
+      image: eight,
       source_image: android,
-      source_code_link: "https://play.google.com/store/apps/details?id=com.daxy.filemot",
+      // source_code_link: "",
     },
     {
       name: "GemStory",
       description:
-        "Developed a B2B e-commerce app for diamond customization, enhancing vendor offerings with custom interfaces, resulting in a 40% increase in personalized product listings. Provided detailed and scalable design documentation.",
+        "Developed B2B e-commerce PWAs for diamond customization with React/Redux, increasing listings by 250. Built 5+ responsive sites using Angular/React, streamlined admin processes. Enhanced security with Stripe, reducing fraud by 99%, showcasing system security proficiency.",
       tags: [
         {
           name: "flutter",
@@ -299,7 +303,7 @@ import {
       source_code_link: "https://play.google.com/store/apps/details?id=com.daxy.gemstory",
     },
     {
-      name: "TellMeAStoryMom",
+      name: "Tell Me A Story Mom",
       description:
         "Led a team to launch a storytelling app for kids of entrepreneurial mothers using Flutter, filling a market niche. Enhanced efficiency by 50% with a detailed database schema and engaged users with innovative text-to-speech functionality.",
       tags: [
@@ -321,9 +325,9 @@ import {
       source_code_link: "https://play.google.com/store/apps/details?id=com.daxy.filemot",
     },
     {
-      name: "STRIVE",
+      name: "Psychometric Assessments",
       description:
-        "Engineered NIH-funded stress management app with Java and GPS, enhancing insights by 35%. Improved GPS accuracy by 40%, boosting user experience. Rapidly delivered within two weeks, increasing engagement by 30%.",
+        "Developed mobile app for psychometric assessments using Flutter, introducing mobile versions of psychological tests to 2,000+ users for phishing defense awareness. Implemented 150+ SQL and Python routines for analyzing 2,500+ user responses, boosting cybersecurity awareness.",
       tags: [
         {
           name: "flutter",
@@ -338,9 +342,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: six,
+      image: seven,
       source_image: github,
-      source_code_link: "https://github.com/DC0202/STRIVE",
+      source_code_link: "https://github.com/DC0202/GlobalPhishingMobileApp",
     },
   ];
   
