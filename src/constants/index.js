@@ -15,8 +15,10 @@ import {
     git,
     figma,
     docker,
+    fifththird,
     daxy,
     iu,
+    accenture,
     otwl,
     one,
     two,
@@ -138,16 +140,35 @@ import {
   
   const experiences = [
     {
-      title: "Full Stack Data Engineer",
+      title: "Software Developer",
+      company_name: "Fifth Third Bank",
+      icon: fifththird,
+      iconBg: "#E6DEDD",
+      date: "Sep 2023 – Present",
+      points: [
+        "Implemented biometric authentication APIs using JavaScript for fingerprint and facial recognition, enhancing user security and access control for over 10,000 users.",
+        "Created interactive dashboards using React Native for mobile users, allowing them to effectively track their spending, budgets, and financial goals, resulting in a 25% increase in user engagement.",
+        "Ensured responsive design by employing Bootstrap and Tailwind CSS, providing a seamless user experience across 95% of devices.",
+        "Applied HTML5 and CSS3 best practices to achieve compliance with accessibility standards, ensuring that 100% of users could navigate the application effectively.",
+        "Optimized the backend using Spring MVC, implementing caching mechanisms for frequently accessed data, reducing server response times by 30% and improving overall application performance.",
+        "Developed a real-time chat feature utilizing Java Server Faces (JSF), allowing users to connect directly with customer support, resulting in a 40% reduction in response times for immediate assistance.",
+        "Developed a robust database schema using PostgreSQL to efficiently store and retrieve user accounts, transaction records, and biometric authentication data, enhancing performance and scalability by 50% while ensuring data integrity and compliance with regulatory standards.",
+        "Deployed the mobile banking application on Google Cloud Platform (GCP), leveraging its scalability and reliability, which improved performance by 35% and facilitated seamless integration with other cloud services.",
+        "Ensured compliance with data protection regulations such as GDPR and CCPA by implementing strong data encryption practices and managing user consent through Java and Spring Boot. ",
+        "Utilized Scrum methodology with project management tools like Trello and Asana, ensuring timely development and delivery of new features, achieving a 15% increase in project efficiency."
+      ],
+    },
+    {
+      title: "Software Engineer",
       company_name: "Indiana University Bloomington",
       icon: iu,
       iconBg: "#383E56",
-      date: "May 2023 - Present",
+      date: "May 2023 – Oct 2023",
       points: [
-        "Employed scrum agile methods to delve into healthcare IT solutions, developing 3 NIH-funded apps, aimed assisting individuals with health issues. Showcased JavaScript and React expertise by crafting fault-tolerant systems with 99.9% uptime, evidencing test-driven development capabilities.",
-        "Developed an AI-powered chatbot, applying Python Flask and Large Language Models (LLM) for Alzheimers disease support, improving African American community engagement. Managed to acquire over 10,000 queries, embodying a passion for technology-driven enhancement.",
-        "Incorporated additional native code, specifically Objective-C and Java, to augment user accessibility in app development. Accomplished a 98% crash-free rate through sophisticated integration of PostgreSQL, GPS, and APIs, refining user experience with targeted analytics.",
-        "Directed a team of 8, utilizing TypeScript, React, NodeJs, and PostgreSQL, producing 3 innovative education technology solutions, leading to a 40% boost in problem-solving efficiency and promoting collaborative and analytical prowess."
+        "Led Agile-driven, HIPAA-compliant development of an AI-powered chatbot for Alzheimer's by leveraging ChatGPT to enhance readability and LLM models, engaging over 50,000 users and increasing interaction by 40% in the African American community.",
+        "Developed a cross-platform mobile application built with Flutter for Alzheimer's support, working closely with design and QA teams to boost engagement with 10,000+ iOS and Android users and elevate accessibility for dementia patients.",
+        "Utilized Docker and Kubernetes to deploy healthcare app features in isolated containers while conducting comprehensive testing with Selenium and JUnit, achieving a 98% crash-free rate for 5,000 daily users and strengthening data security for 3,000 patients.",
+        "Adopted MVVM architecture in a React app for stress monitoring, doing 99.9% uptime and proactively optimizing and improving user health tracking accuracy with PostgreSQL integration for robust data management."
       ],
     },
     {
@@ -157,33 +178,42 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2022 – May 2023",
       points: [
-        "Boosted problem-solving skills for 150+ students in Applied Algorithms, resulting in improvement in academic through interactive sessions.",
-        "Elevated security knowledge among 80 students through detailed seminars on DES, AES, and Cipher techniques, achieving an increase in student proficiency in cybersecurity nuances, exhibiting effective educational engagement and subject mastery."
-      ],
-    },
-    {
-      title: "Software Engineer, Data Platform",
-      company_name: "Daxy – The Digital Taxi",
-      icon: daxy,
-      iconBg: "#383E56",
-      date: "Jun 2020 – Dec 2021",
-      points: [
-        "Cultivated B2B e-commerce Progressive Web Apps (PWA), improving diamond customization sales, leveraging React and Redux for custom UIs, resulting in increase client product listings with 250 products while authoring scalable design and featuring HTML/CSS, Django, and JavaScript skills.",
-        "Architected 5+ responsive, full-stack e-commerce website applying Angular and React.Js, integrating customizable CRUD-based Admin backend, reducing product catalog controls. Utilized Apache Airflow for ETL orchestration, enhancing cross-team communication and workflow efficiency.",
-        "Enhanced online transaction security by synthesizing Stripe payment gateway and implementing user authentication using Python, leading to a 99% reduction in fraudulent activities while illustrating expertise in system security, database management, and distributed computing practices."
+        "Facilitated problem-solving skills for 150 students in Applied Algorithms, educating through interactive sessions.",
+        "Delivered security knowledge to 80 students, introducing innovative exercises on DES, AES, and Cipher techniques, advancing student proficiency in cybersecurity topics, and demonstrating effective educational engagement and subject mastery."
       ],
     },
     {
       title: "Software Developer",
-      company_name: "Ocean Transworld Logistics",
-      icon: otwl,
-      iconBg: "#E6DEDD",
-      date: "Jun 2019 – May 2020",
+      company_name: "Accenture",
+      icon: accenture,
+      iconBg: "#383E56",
+      date: "Jan 2019 – Dec 2021",
       points: [
-        "Managed development of a Java-based Android app with Firebase, cutting paper usage and reducing wage loss by 45%, showcasing deep RDBMS knowledge and query optimization in streamlining expense records and automating allowances.",
-        "Innovated a route suggestion system employing AJAX, PHP, Bootstrap, alongside a sophisticated validation algorithm, resulting in fewer financial errors and 90% success rate in operational efficiency, proficiency in enterprise application development and large-scale system maintenance."
+        "Utilized React.js to develop a dynamic and responsive user interface, significantly enhancing the overall user experience, resulting in a 30% increase in user satisfaction. This approach ensured intuitive navigation for users interacting with course content.",
+        "Employed CSS3 and Bootstrap to create a responsive design, making the LMS (Learning Management System) accessible across 95% of devices, including desktops, tablets, and smartphones. This ensured a consistent user experience regardless of screen size.",
+        "Implemented a robust RESTful API using Node.js and Express.js to facilitate efficient client-server communication. This API managed course data and user authentication.",
+        "Chose GraphQL as the primary data store, leveraging its flexible schema to handle various course and user-related data efficiently, resulting in a 50% improvement in query performance.",
+        "Developed a cross-platform mobile application using Flutter, enabling users to access the LMS on both iOS and Android devices, increasing mobile user engagement by 25%.",
+        "Implemented the Apache Struts framework to structure the web application’s architecture, ensuring a clear separation of concerns. This approach enhanced the maintenance and scalability of the LMS, reducing development time by 20% by adhering to the Model-View-Controller (MVC) pattern.",
+        "Utilized TypeScript to build interactive components within the LMS, enhancing user engagement and enabling dynamic content updates without full page reloads, which improved the overall responsiveness of the application by 35%.",
+        "Implemented OAuth to secure user authentication processes, enabling safe registration and login features for over 10,000 users. This ensured that user data remained protected throughout their interactions with the platform, reducing unauthorized access attempts by 95%.",
+        "Deployed the application on AWS, leveraging EC2 for scalable server hosting and S3 for the storage of static files. This cloud infrastructure provided high availability and optimized performance, reducing downtime.",
+        "Conducted A/B testing to optimize user interface elements and course content delivery, resulting in a 20% increase in engagement and improved conversion rates.",
+        "Ensured adherence to security best practices, including the use of HTTPS for secure data transmission and encryption for protecting sensitive user information. This commitment enhanced overall application security, resulting in a 90% decrease in security breaches.",
+        "Developed a microservices architecture using Spring Boot, enabling independent deployment and scalability of various LMS components, such as user management and course data services.",
       ],
     },
+    // {
+    //   title: "Software Developer",
+    //   company_name: "Ocean Transworld Logistics",
+    //   icon: otwl,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jun 2019 – May 2020",
+    //   points: [
+    //     "Managed development of a Java-based Android app with Firebase, cutting paper usage and reducing wage loss by 45%, showcasing deep RDBMS knowledge and query optimization in streamlining expense records and automating allowances.",
+    //     "Innovated a route suggestion system employing AJAX, PHP, Bootstrap, alongside a sophisticated validation algorithm, resulting in fewer financial errors and 90% success rate in operational efficiency, proficiency in enterprise application development and large-scale system maintenance."
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -278,7 +308,6 @@ import {
       ],
       image: eight,
       source_image: android,
-      // source_code_link: "",
     },
     {
       name: "GemStory",

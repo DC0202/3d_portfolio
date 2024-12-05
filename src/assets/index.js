@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import android from "./android.webp";
-import resume from "./resume.png";
+import resume from "./resume.pdf";
 import linkedin from "./linkedin.svg";
 import bg from "./herobg.png";
 
@@ -26,6 +26,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import daxy from "./company/daxyLogo.webp";
+import accenture from "./company/accenture-logo.webp";
+import fifththird from "./company/fifth-third-logo.webp";
 import iu from "./company/iuLogo.webp";
 import otwl from "./company/oceanTransworldLogo.webp";
 
@@ -61,8 +63,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  fifththird,
   daxy,
   iu,
+  accenture,
   otwl,
   one,
   two,

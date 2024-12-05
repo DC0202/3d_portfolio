@@ -13,7 +13,7 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <Navbar onShowImageModal={toggleImageModal}/>
-        {showImageModal && <ImageModal file={resume} onClose={toggleImageModal} />}
+        {/* {showImageModal && <ImageModal file={resume} onClose={toggleImageModal} />} */}
         <Hero />
         <About />
         <Experience />
